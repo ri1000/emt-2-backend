@@ -23,8 +23,7 @@ jobs:
       run: mvn -B package --file pom.xml
   
     - name: Name of the package
-      run: cd /target |
-           ls -l
+      run: ls /target
    
 #     - id: 'auth'
 #       name: 'Authenticate to Google Cloud'
