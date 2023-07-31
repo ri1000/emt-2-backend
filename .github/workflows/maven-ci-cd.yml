@@ -23,7 +23,7 @@ jobs:
       run: mvn -B package --file pom.xml
   
     - name: Name of the package
-      run: cd /target 
+      run: cd /target |
            ls -l
    
 #     - id: 'auth'
