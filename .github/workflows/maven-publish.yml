@@ -34,4 +34,6 @@ jobs:
       
     - name: 'Use gcloud CLI'
       run: 'gcloud info'
+    - name: 'Check Docker version'
+      run: 'docker -v '
       
