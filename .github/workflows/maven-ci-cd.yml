@@ -23,7 +23,7 @@ jobs:
       run: mvn -B package --file pom.xml
   
     - name: Name of the package
-      run: ls -l | grep '.jar'
+      run: ls -l
    
 #     - id: 'auth'
 #       name: 'Authenticate to Google Cloud'
