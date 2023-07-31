@@ -27,3 +27,11 @@ jobs:
       uses: 'google-github-actions/auth@v1'
       with:
         credentials_json: '${{ secrets.GOOGLE_JSON }}'
+        
+        
+    - name: 'Set up Cloud SDK'
+      uses: 'google-github-actions/setup-gcloud@v1'
+      
+    - name: 'Use gcloud CLI'
+      run: 'gcloud info'
+      
